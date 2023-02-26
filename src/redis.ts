@@ -1,4 +1,4 @@
-export const connection = { host: "127.0.0.1", port: 6379 }
+export const connection = { host: "127.0.0.1", port: 6379, db: 5 }
 
 /* 使用IORedis模块创建Redis连接 */
 // import IORedis from "ioredis";
